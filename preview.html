@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rwal Preview</title>
+</head>
+
+<body>
+  <div class="parent">
+    <div class="row">
+      <div class="box-outer">
+  <div class="box" style="background: rgb(7, 7, 12);"></div>
+  7 7 12
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(109, 74, 124);"></div>
+  109 74 124
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(124, 73, 84);"></div>
+  124 73 84
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(123, 86, 72);"></div>
+  123 86 72
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(126, 114, 74);"></div>
+  126 114 74
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(122, 126, 75);"></div>
+  122 126 75
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(78, 123, 78);"></div>
+  78 123 78
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(237, 237, 241);"></div>
+  237 237 241
+</div>
+
+    </div>
+    <div class="row">
+      <div class="box-outer">
+  <div class="box" style="background: rgb(31, 31, 36);"></div>
+  31 31 36
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(152, 128, 163);"></div>
+  152 128 163
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(163, 127, 135);"></div>
+  163 127 135
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(162, 136, 126);"></div>
+  162 136 126
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(164, 156, 128);"></div>
+  164 156 128
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(161, 164, 129);"></div>
+  161 164 129
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(131, 162, 131);"></div>
+  131 162 131
+</div>
+<div class="box-outer">
+  <div class="box" style="background: rgb(238, 238, 242);"></div>
+  238 238 242
+</div>
+
+    </div>
+  </div>
+
+<style>
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(7, 7, 12);
+}
+
+* {
+  color: rgb(237, 237, 241);
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.box-outer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  padding: 5px;
+  border-radius: 5px;
+  transition:
+    font-size 200ms,
+    background 200ms,
+    color 200ms,
+    width 200ms,
+    height 200ms;
+  width: 100px;
+  height: 100px; 
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.40);
+  box-shadow: inset 0 0 5px 0 rgba(237, 237, 241, 0.25);
+}
+
+.box:hover {
+  font-size: 110%;
+  width: 110px;
+  height: 110px;
+  color: rgba(0, 0, 0, 0.90);
+}
+</style>
+</body>
+</html>
